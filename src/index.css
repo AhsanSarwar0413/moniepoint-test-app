@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Blimone';
+    src: local('Blimone'), url('./assets/fonts/Blimone-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Blimone';
+    src: local('Blimone'), url('./assets/fonts/Blimone-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Blimone';
+    src: local('Blimone'), url('./assets/fonts/Blimone-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Blimone';
+    src: local('Blimone'), url('./assets/fonts/Blimone-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Blimone Bold Inktrap';
+    src: local('Blimone Bold Inktrap'), url('./assets/fonts/Blimone-BoldInktrap.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #0b0f17;
+    color: #e2dfdd;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+a{
+    color: #e2dfdd;
+}
+.swiper-pagination-bullets span {
+    background-color: #e2dfdd;
+}
